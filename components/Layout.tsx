@@ -53,7 +53,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 				</div>
 
 				<menu>
-					<nav c>
+					<nav>
 						<ul className="font-medium divide-y">
 							<li>
 								<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/">
