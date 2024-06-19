@@ -18,15 +18,19 @@ const AboutPage = () => (
 
 		{/* Content */}
 		<section>
-			<div className="container px-6 py-10 mx-auto max-w-5xl prose">
-				<h2 className="text-3xl font-semibold mb-4">hello,</h2>
-				<p>I make things!</p>
+			<div className="container px-6 py-12 lg:py-20 mx-auto max-w-5xl prose">
+				<blockquote className="max-w-2xl mx-auto text-2xl italic text-gray-400">
+					"I feel most drawn to frames that have relatively straightforward profiles and that are made from wood with interesting grain patterns-
+					especially the figured grain of quarter sawn white oak. I feel this combination allows for a unique and significant visual presence that
+					communicates quality, while keeping the primary focus on the artwork."
+					<cite className="block mt-4 text-lg not-italic text-gray-700">- Todd Holmberg</cite>
+				</blockquote>
 			</div>
 		</section>
 
 		{/* CV */}
-		<section className="bg-gray-100">
-			<div className="container px-6 py-10 mx-auto max-w-5xl">CV</div>
+		<section className="bg-gray-100 text-center">
+			<div className="container px-6 py-10 mx-auto max-w-5xl">CV: Coming Soon</div>
 		</section>
 	</Layout>
 );

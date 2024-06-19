@@ -19,7 +19,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 
 		<div className="sm:hidden flex justify-between pt-2 px-4 pb-4 h-20">
 			<div className="flex gap-3">
-				<Image src={Logo} alt="Holmberg Woodworking Logo" width={40} className="-mb-1 mt-1 w-" />
+				<Image src={Logo} alt="Holmberg Woodworking Logo" width={40} className="-mb-1 mt-1" />
 				<div className="text-xl xs:text-2xl mt-4 font-semibold">Holmberg Woodworking</div>
 			</div>
 
@@ -28,7 +28,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 				data-drawer-toggle="sidebar-multi-level-sidebar"
 				aria-controls="sidebar-multi-level-sidebar"
 				type="button"
-				className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+				className="inline-flex items-center p-3 mt-2 ms-3 text-sm text-gray-500 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
 			>
 				<span className="sr-only">Open sidebar</span>
 				<svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -43,27 +43,27 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 
 		<header
 			id="sidebar-multi-level-sidebar"
-			className="fixed bg-white top-20 right-0 z-40 w-64 h-screen transition-transform translate-x-full sm:translate-x-0 sm:left-0 sm:top-0 sm:transition-none xl:w-96"
+			className="fixed bg-white z-50 top-30 shadow-sm right-0 z-40 w-72 h-screen transition-transform translate-x-full sm:translate-x-0 sm:left-0 sm:top-0 sm:transition-none xl:w-96"
 			aria-label="Sidebar"
 		>
-			<div className="h-full  pb-4 px-4 sm:pt-12 xl:px-6 overflow-y-auto ">
-				<div className="hidden sm:block text-center mb-12">
+			<div className="h-full pb-4 px-4 sm:pt-12 lg:px-6 overflow-y-auto ">
+				<div className="hidden sm:block text-center mb-8">
 					<Image src={Logo} alt="Holmberg Woodworking Logo" className="mx-auto w-16 xl:w-24" />
 					<div className="text-xl sm:text-3xl xl:text-4xl mt-4 font-semibold">Holmberg Woodworking</div>
 				</div>
 
 				<menu>
-					<nav>
-						<ul className="space-y-2 font-medium">
+					<nav c>
+						<ul className="font-medium divide-y">
 							<li>
-								<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/">
+								<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/">
 									Home
 								</Link>
 							</li>
 							<li>
 								<button
 									type="button"
-									className="flex justify-between items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 "
+									className="flex justify-between items-center w-full p-3 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 "
 									aria-controls="dropdown-example"
 									data-collapse-toggle="dropdown-example"
 								>
@@ -76,49 +76,50 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 								</button>
 								<ul id="dropdown-example" className="hidden py-2 space-y-2">
 									<li>
-										<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
+										<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
 											Products
 										</Link>
 									</li>
 									<li>
-										<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
+										<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
 											Products
 										</Link>
 									</li>
 									<li>
-										<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
+										<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
 											Products
 										</Link>
 									</li>
 									<li>
-										<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
+										<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/products">
 											Products
 										</Link>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/about">
+								<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/about">
 									About
 								</Link>
 							</li>
 							<li>
-								<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/contact">
+								<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/contact">
 									Contact
 								</Link>
 							</li>
 							<li>
 								<Link
-									className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group"
+									className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group"
 									href="https://www.etsy.com/shop/HolmbergWoodworking"
 									target="_blank"
 								>
 									Shop
 								</Link>
 							</li>
-							---
+						</ul>
+						<ul className="mt-4 divide-y">
 							<li>
-								<Link className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/portfolio">
+								<Link className="flex items-center p-3 text-gray-900 rounded-lg  hover:bg-gray-100  group" href="/portfolio">
 									Portfolio
 								</Link>
 							</li>
@@ -128,7 +129,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 			</div>
 		</header>
 
-		<div className="sm:ml-64 xl:ml-96 bg-gray-50 min-h-screen">
+		<div className="sm:ml-72 xl:ml-96 bg-gray-50 min-h-screen">
 			{children}
 			<footer className="container px-6 py-12 mx-auto max-w-5xl">© 2024 Holmberg Woodworking</footer>{" "}
 		</div>

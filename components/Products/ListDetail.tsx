@@ -6,11 +6,6 @@ type ListDetailProps = {
 	item: ProductCategory;
 };
 
-const ListDetail = ({ item: user }: ListDetailProps) => (
-	<div>
-		<h1>Detail for {user.name}</h1>
-		<p>ID: {user.id}</p>
-	</div>
-);
+const ListDetail = ({ item }: ListDetailProps) => <div className="mb-12">{item.description}</div>;
 
 export default ListDetail;

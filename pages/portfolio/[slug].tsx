@@ -1,12 +1,12 @@
 import { GetStaticProps, GetStaticPaths } from "next";
-import Image from "next/image";
 
 import { ProductCategory } from "../../interfaces";
-import { productCategories } from "../../utils/product-data";
-
 import Layout from "../../components/Layout";
+import ListDetail from "../../components/ListDetail";
+
+import { productCategories } from "../../utils/product-data";
 import Gallery from "../../components/Products/Gallery";
-import ListDetail from "../../components/Products/ListDetail";
+import Image from "next/image";
 
 type Props = {
 	item?: ProductCategory;
@@ -42,8 +42,10 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
 				/>
 			</section>
 			<section>
+				<div className="container px-6 py-12 mx-auto max-w-5xl">{item && <ListDetail item={item} />}</div>
+			</section>
+			<section>
 				<div className="container px-6 py-12 mx-auto max-w-5xl">
-					{item && <ListDetail item={item} />}
 					<Gallery item={item} />
 				</div>
 			</section>

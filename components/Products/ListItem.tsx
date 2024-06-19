@@ -22,9 +22,11 @@ const ListItem = ({ data }: Props) => (
 			</div>
 			<div className=" max-w-lg">
 				<h2 className="text-2xl font-semibold">{data.name}</h2>
-				<div className="mt-2 text-lg text-gray-400 flex flex-col space-y-4 leading-7 group-hover:text-gray-600 transition-colors duration-500">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur magna purus, a rhoncus tortor facilisis in. </p>
-				</div>
+				{data.description ? (
+					<div className="mt-2 text-lg text-gray-400 flex flex-col space-y-4 leading-7 group-hover:text-gray-600 transition-colors duration-500">
+						<p>{data.description}</p>
+					</div>
+				) : null}
 			</div>
 		</div>
 	</Link>
