@@ -42,7 +42,7 @@ const WithStaticProps = ({ items }: Props) => {
 			{/* CONTENT */}
 			<section className="relative overflow-hidden">
 				<div className="container px-6 py-10 mx-auto max-w-5xl">
-					{1 == 1 || context.authenticated ? (
+					{context.authenticated ? (
 						<List items={items} />
 					) : (
 						<div className="max-w-md bg-white rounded-lg border border-gray-200 shadow-sm p-8 mx-auto">
