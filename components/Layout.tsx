@@ -26,10 +26,10 @@ const Layout = ({ children, title = "This is the default title" }: Props) => {
 
 			<div className="relative h-20 md:hidden z-50 bg-white">
 				<div className="fixed flex justify-between pt-2 px-4 pb-4 h-20 bg-white w-full">
-					<div className="flex gap-3">
+					<Link href="/" className="flex gap-3">
 						<Image src={Logo} alt="Holmberg Woodworking Logo" width={40} className="-mb-1 mt-1" />
 						<div className="text-xl xs:text-2xl mt-4 font-semibold">Holmberg Woodworking</div>
-					</div>
+					</Link>
 
 					<button
 						onClick={() => toggle()}
@@ -55,21 +55,21 @@ const Layout = ({ children, title = "This is the default title" }: Props) => {
 				id="sidebar-multi-level-sidebar"
 				className={cn(
 					!isOpen && "translate-x-full",
-					"fixed bg-white z-50 top-30 shadow-sm right-0 z-40 w-72 h-screen transition-transform md:translate-x-0 md:left-0 md:top-0 md:transition-none xl:w-96"
+					"fixed bg-white z-50 top-30 shadow-sm right-0 z-40 w-72 h-screen transition-transform md:translate-x-0 md:left-0 md:top-0 md:transition-none 2xl:w-96"
 				)}
 				aria-label="Sidebar"
 			>
 				<div className="h-full pb-4 px-4 md:pt-12 lg:px-6 overflow-y-auto ">
-					<div className="hidden md:block text-center mb-8">
-						<Image src={Logo} alt="Holmberg Woodworking Logo" className="mx-auto w-16 xl:w-20" />
-						<div className="text-xl sm:text-3xl xl:text-4xl mt-4 font-semibold">Holmberg Woodworking</div>
-					</div>
+					<Link href="/" className="hidden md:block text-center mb-6">
+						<Image src={Logo} alt="Holmberg Woodworking Logo" className="mx-auto w-16 2xl:w-20" />
+						<div className="text-xl sm:text-3xl 2xl:text-4xl mt-4 font-semibold">Holmberg Woodworking</div>
+					</Link>
 
 					<Menu />
 				</div>
 			</header>
 
-			<div className=" bg-gray-50 min-h-screen md:ml-72 xl:ml-96">
+			<div className=" bg-gray-50 min-h-screen md:ml-72 2xl:ml-96">
 				{children}
 				<footer className="container px-6 py-12 mx-auto max-w-5xl">© 2024 Holmberg Woodworking</footer>{" "}
 			</div>
