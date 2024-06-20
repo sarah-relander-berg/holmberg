@@ -30,13 +30,13 @@ const WithStaticProps = ({ items }: Props) => {
 	return (
 		<Layout title="Portfolio | Holmberg Woodworking">
 			{/* HERO */}
-			<section className=" min-h-96 relative overflow-hidden flex flex-col justify-end items-center">
+			<section className="h-96 max-h-[42dvh] relative overflow-hidden flex flex-col justify-end items-center">
 				<div className="z-10 w-full bg-gradient-to-t from-neutral-950/90 to-neutral-950/0 rounded">
 					<div className="container px-6 py-10 mx-auto max-w-5xl z-10">
 						<h1 className="block text-3xl font-semibold text-white sm:text-4xl md:text-6xl">Portfolio</h1>
 					</div>
 				</div>
-				<Image src={ImgHero} alt="about" className="w-full object-cover h-full sm:h-[480px]  bg-no-repeat bg-center bg-cover absolute top-0 left-0" />
+				<Image src={ImgHero} alt="about" className="w-full object-cover h-full bg-no-repeat bg-center bg-cover absolute top-0 left-0" />
 			</section>
 
 			{/* CONTENT */}
