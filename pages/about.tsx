@@ -19,7 +19,7 @@ const AboutPage = () => (
 		{/* Content */}
 		<section>
 			<div className="container px-6 py-12 lg:py-20 mx-auto max-w-5xl prose">
-				<blockquote className="max-w-2xl mx-auto text-2xl italic text-gray-400">
+				<blockquote className="max-w-2xl mx-auto text-lg md:text-xl lg:text-2xl italic text-gray-400 leading-normal">
 					"I feel most drawn to frames that have relatively straightforward profiles and that are made from wood with interesting grain patterns-
 					especially the figured grain of quarter sawn white oak. I feel this combination allows for a unique and significant visual presence that
 					communicates quality, while keeping the primary focus on the artwork."

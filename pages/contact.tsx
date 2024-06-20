@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import { Button } from "../components/Button/Button";
 
-import ImgHero from "../assets/orchid_box.jpg";
+import ImgHero from "../assets/contact.jpg";
 
 const AboutPage = () => (
 	<Layout title="Contact | Holmberg Woodworking">
@@ -14,7 +14,7 @@ const AboutPage = () => (
 					<h1 className="block text-3xl font-semibold text-white sm:text-4xl md:text-6xl">Contact</h1>
 				</div>
 			</div>
-			<Image src={ImgHero} alt="about" className="w-full object-cover h-full sm:h-[480px]  bg-no-repeat bg-center bg-cover absolute top-0 left-0" />
+			<Image src={ImgHero} alt="about" className="w-full object-cover h-full object-[center_60%] absolute top-0 left-0  md:h-[480px] " />
 		</section>
 
 		{/* CONTENT */}

@@ -18,7 +18,7 @@ const ListItem = ({ data }: Props) => (
 				</div>
 			) : null}
 		</div>
-		<div className="space-y-8 mt-8">
+		<div className="space-y-6 mt-6">
 			<Gallery data={data.gallery} />
 		</div>
 	</div>
