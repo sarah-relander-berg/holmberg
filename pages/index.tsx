@@ -3,7 +3,7 @@ import Image from "next/image";
 import Testimonial from "../components/PageSectionStatic/Testimonial";
 import Collections from "../components/PageSectionStatic/Collections";
 
-import ImgHome from "../assets/home2.jpg";
+import ImgHome from "../assets/home01.jpg";
 
 const IndexPage = () => (
 	<Layout title="Home | Holmberg Woodworking">

@@ -3,7 +3,7 @@ import { ProductCategory } from "../interfaces";
 import ImgArt from "../assets/frame.jpg";
 import ImgToddler from "../assets/toddler_frame.jpg";
 import ImgOrchid from "../assets/orchid_box.jpg";
-import ImgCactus from "../assets/orchid_box.jpg";
+import ImgCactus from "../assets/cactus-planter.jpg";
 
 export const productCategories: ProductCategory[] = [
 	{

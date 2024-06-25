@@ -13,6 +13,7 @@ export type PortfolioCategory = {
 	slug?: string;
 	description?: string;
 	gallery?: GallerySection[] | GalleryItem[];
+	columnClass?: string;
 };
 
 export type GallerySection = {
@@ -24,6 +25,7 @@ export type GallerySection = {
 export type GalleryItem = {
 	image: string;
 	title?: string;
+	width?: number
 };
 
 export type User = {

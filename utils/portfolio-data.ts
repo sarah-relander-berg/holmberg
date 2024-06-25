@@ -7,8 +7,9 @@ export const portfolio: PortfolioCategory[] = [
 		description: `<p> 8’ A-Frame in the picture above is one that I was commissioned to build for MACC. I handled all elements of the process- from initial design plans to final construction and delivery.</p>
 <p>I feel the general construction concepts seen in a project like this would translate to many other projects in a Registration department.</p>`,
 		gallery: [
-			{ image: "/images/portfolio/kitchen-before1.png", title: "" },
+			{ image: "/images/portfolio/kitchen-before1.png", title: "", width: 400 },
 		],
+		columnClass: "grid-cols-1 md:grid-cols-2",
 	},
 	{
 		id: 102,
