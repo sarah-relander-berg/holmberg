@@ -24,6 +24,7 @@ Sam and Sarah if needed in urgent framing projects.</p>`,
 		gallery: [
 			{ image: "/images/portfolio/framedesign_01.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_02.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_16.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_03.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_04.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_05.jpg", title: "", width: 450 },
@@ -73,8 +74,8 @@ hoping to move towards in my next chapter of museum work.</p>`,
 			{
 				name: 'Silver Polishing and Microclimate Case Fabrication',
 				gallery: [
-					{ image: "/images/portfolio/displaycase1.png", title: "", width: 450 },
-					{ image: "/images/portfolio/displaycase2.png", title: "", width: 450 },
+					{ image: "/images/portfolio/displaycase1.png", title: "", width: 450, aspect: 'aspect-square' },
+					{ image: "/images/portfolio/displaycase2.png", title: "", width: 450, aspect: 'aspect-square' },
 				],
 				columnClass: "grid-cols-1 md:grid-cols-2",
 			}
@@ -172,14 +173,14 @@ that may come up in projects.</p>`,
 		gallery: [
 			{
 				gallery: [
-					{ image: "/images/portfolio/kitchen-before1.png", title: "Before", width: 450 },
-					{ image: "/images/portfolio/kitchen-after1.png", title: "After", width: 450 },
+					{ image: "/images/portfolio/kitchen-before1.png", title: "Before", width: 450, aspect: 'aspect-[4/3]' },
+					{ image: "/images/portfolio/kitchen-after1.png", title: "After", width: 450, aspect: 'aspect-[4/3]' },
 				],
 				columnClass: "grid-cols-1 md:grid-cols-2",
 			}, {
 				gallery: [
-					{ image: "/images/portfolio/kitchen-before2.png", title: "Before", width: 450 },
-					{ image: "/images/portfolio/kitchen-after2.png", title: "After", width: 450 },
+					{ image: "/images/portfolio/kitchen-before2.png", title: "Before", width: 450, aspect: 'aspect-[4/3]' },
+					{ image: "/images/portfolio/kitchen-after2.png", title: "After", width: 450, aspect: 'aspect-[4/3]' },
 				],
 				columnClass: "grid-cols-1 md:grid-cols-2",
 			}
@@ -192,8 +193,8 @@ that may come up in projects.</p>`,
 		gallery: [
 			{
 				gallery: [
-					{ image: "/images/portfolio/upstairs-before.png", title: "Before", width: 450 },
-					{ image: "/images/portfolio/upstairs-after.png", title: "After", width: 450 },
+					{ image: "/images/portfolio/upstairs-before.png", title: "Before", width: 450, aspect: 'aspect-[4/3]' },
+					{ image: "/images/portfolio/upstairs-after.png", title: "After", width: 450, aspect: 'aspect-[4/3]' },
 				],
 				columnClass: "grid-cols-1 md:grid-cols-2",
 			}, {
@@ -212,8 +213,8 @@ that may come up in projects.</p>`,
 		gallery: [
 			{
 				gallery: [
-					{ image: "/images/portfolio/sidedoor-before.png", title: "Before", width: 450 },
-					{ image: "/images/portfolio/sidedoor-after.png", title: "After", width: 450 },
+					{ image: "/images/portfolio/sidedoor-before.png", title: "Before", width: 450, aspect: 'aspect-[4/3]' },
+					{ image: "/images/portfolio/sidedoor-after.png", title: "After", width: 450, aspect: 'aspect-[4/3]' },
 				],
 				columnClass: "grid-cols-1 md:grid-cols-2",
 			},

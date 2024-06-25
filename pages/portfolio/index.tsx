@@ -6,7 +6,7 @@ import { PortfolioCategory } from "../../interfaces";
 import { portfolio } from "../../utils/portfolio-data";
 import Layout from "../../components/Layout";
 
-import ImgHero from "../../assets/th.jpg";
+import ImgHero from "../../assets/products.jpg";
 import { useContext } from "react";
 import { ctx } from "../../utils/context";
 import { Button } from "../../components/Button/Button";
