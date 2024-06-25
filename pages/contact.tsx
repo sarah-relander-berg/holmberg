@@ -29,7 +29,7 @@ const AboutPage = () => (
 						</div>
 					</div>
 					<div className="flex-1">
-						<div className="bg-red-50 p-6 text-red-500 rounded-lg mb-8 border-red-500 border font-bold">Contact Form: COMING SOON</div>
+						{/* <div className="bg-red-50 p-6 text-red-500 rounded-lg mb-8 border-red-500 border font-bold">Contact Form: COMING SOON</div> */}
 						<form
 							action=""
 							onSubmit={(e) => {
