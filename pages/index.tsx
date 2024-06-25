@@ -10,7 +10,7 @@ const IndexPage = () => (
 		<Image
 			src={ImgHome}
 			alt="home"
-			className="w-full bg-gray-50 object-cover 2xl:object-contain h-dvh max-h-[calc(100dvh-5rem)] md:max-h-dvh bg-no-repeat bg-center bg-contain"
+			className="w-full bg-gray-50 object-cover xl:object-contain h-dvh max-h-[calc(100dvh-5rem)] md:max-h-dvh bg-no-repeat bg-center bg-contain"
 		/>
 	</Layout>
 );

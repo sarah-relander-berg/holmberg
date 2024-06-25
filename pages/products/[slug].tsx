@@ -29,8 +29,8 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
 			{/* HERO */}
 			<section className=" min-h-96 relative overflow-hidden flex flex-col justify-end items-center">
 				<div className="z-10 w-full bg-gradient-to-t from-neutral-950/90 to-neutral-950/0 rounded">
-					<div className="container px-6 py-10 mx-auto max-w-5xl z-10">
-						<h1 className="block text-3xl font-semibold text-white sm:text-4xl md:text-6xl">{item.name}</h1>
+					<div className="container px-6 sm:px-12 2xl:px-6 pt-12 pb-8 lg:py-10 mx-auto max-w-5xl z-10">
+						<h1 className="block text-3xl font-semibold text-white sm:text-5xl 2xl:text-6xl">{item.name}</h1>
 					</div>
 				</div>
 				<Image
@@ -42,7 +42,7 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
 				/>
 			</section>
 			<section>
-				<div className="container px-6 py-12 mx-auto max-w-5xl">
+				<div className="container px-6 sm:px-12 2xl:px-6 py-12 mx-auto max-w-5xl">
 					{item && <ListDetail item={item} />}
 					<Gallery item={item} />
 				</div>

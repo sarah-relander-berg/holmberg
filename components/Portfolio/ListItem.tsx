@@ -10,17 +10,15 @@ type Props = {
 
 const ListItem = ({ data }: Props) => (
 	<div>
-		<div className="max-w-lg">
-			<h2 className="text-2xl font-semibold">{data.name}</h2>
-			{data.description ? (
-				<div className="mt-2 text-lg text-gray-400 flex flex-col space-y-4 leading-7 group-hover:text-gray-600 transition-colors duration-500">
-					<p>{data.description}</p>
-				</div>
-			) : null}
-		</div>
-		<div className="space-y-6 mt-6">
+		<h2 className="text-2xl font-semibold">{data.name}</h2>
+		<div className="space-y-6 mt-3">
 			<Gallery data={data.gallery} />
 		</div>
+		{data.description ? (
+			<div className="mt-3 max-w-3xl text-lg text-gray-400 flex flex-col space-y-4 leading-7 group-hover:text-gray-600 transition-colors duration-500">
+				<p dangerouslySetInnerHTML={{ __html: data.description }}></p>
+			</div>
+		) : null}
 	</div>
 );
 

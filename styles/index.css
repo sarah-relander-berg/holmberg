@@ -3,3 +3,9 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+
+ol{
+    list-style: decimal;
+    padding-left: 1.3rem;
+}

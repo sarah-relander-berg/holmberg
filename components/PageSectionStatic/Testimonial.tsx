@@ -4,7 +4,7 @@ type Props = {};
 
 const Testimonial = ({}: Props) => (
 	<section>
-		<div className="container px-6 py-12 mx-auto max-w-5xl">
+		<div className="container px-6 sm:px-12 2xl:px-6 py-12 mx-auto max-w-5xl">
 			<div className="mt-6 md:flex md:items-center md:justify-between">
 				<div>
 					<h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl ">What people are saying</h1>

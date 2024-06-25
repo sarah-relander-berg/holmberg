@@ -4,7 +4,7 @@ type Props = {};
 
 const Collections = ({}: Props) => (
 	<section className="bg-gray-100">
-		<div className="container px-6 py-12 mx-auto max-w-5xl">
+		<div className="container px-6 sm:px-12 2xl:px-6 py-12 mx-auto max-w-5xl">
 			<div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
 				<h2 className="text-2xl font-semibold text-gray-900">Collections</h2>
 

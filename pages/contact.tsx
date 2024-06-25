@@ -8,25 +8,24 @@ import ImgHero from "../assets/contact.jpg";
 const AboutPage = () => (
 	<Layout title="Contact | Holmberg Woodworking">
 		{/* HERO */}
-		<section className="h-96 max-h-[42dvh] relative overflow-hidden flex flex-col justify-end items-center">
+		<section className="h-96 max-h-[43dvh] relative overflow-hidden flex flex-col justify-end items-center">
 			<div className="z-10 w-full bg-gradient-to-t from-neutral-950/90 to-neutral-950/0 rounded">
-				<div className="container px-6 py-10 mx-auto max-w-5xl z-10">
-					<h1 className="block text-3xl font-semibold text-white sm:text-4xl md:text-6xl">Contact</h1>
+				<div className="container px-6 sm:px-12 2xl:px-6 pt-12 pb-8 lg:py-10 mx-auto max-w-5xl z-10">
+					<h1 className="block text-3xl font-semibold text-white sm:text-5xl 2xl:text-6xl">Contact</h1>
 				</div>
 			</div>
-			<Image src={ImgHero} alt="about" className="w-full object-cover h-full object-[center_60%] absolute top-0 left-0" />
+			<Image src={ImgHero} alt="about" className="w-full object-cover h-full object-[center_53%] absolute top-0 left-0" />
 		</section>
 
 		{/* CONTENT */}
 		<section className="relative overflow-hidden">
-			<div className="container px-6 py-10 mx-auto max-w-5xl">
+			<div className="container px-6 sm:px-12 2xl:px-6 pt-12 pb-8 lg:py-10 mx-auto max-w-5xl">
 				<div className="flex flex-col gap-8 lg:flex-row lg:gap-12">
 					<div className="flex-1">
 						<h2 className="text-3xl font-semibold mb-4">Let's chat,</h2>
 						<div className="mt-6 xl:mt-8 text-lg text-gray-500 flex flex-col space-y-4 leading-7">
-							<p>Please fill out the contact form with any questions / comments you have about my services.</p>
-							<p>I do create on commission. Tell me about your project and I will make you a free quote on a potential original. </p>
-							<p>All works are available for purchase unless otherwise noted. Please contact for pricing. </p>
+							<p>Please fill out the contact form with any questions / comments you have about my services. </p>
+							<p>I do create on commission. If the frame profiles on the site seem in line with your project's needs, I can put together a free quote for the project you describe. </p>
 						</div>
 					</div>
 					<div className="flex-1">

@@ -7,9 +7,9 @@ type Props = {
 };
 
 const List = ({ items }: Props) => (
-	<ul className="grid grid-cols-1 justify-between gap-16 gap-y-12">
+	<ul className="grid grid-cols-1 justify-between divide-y">
 		{items.map((item) => (
-			<li key={item.id}>
+			<li key={item.id} className="py-8">
 				<ListItem data={item} />
 			</li>
 		))}
