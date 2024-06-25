@@ -7,7 +7,7 @@ export const portfolio: PortfolioCategory[] = [
 		description: `<p> 8’ A-Frame in the picture above is one that I was commissioned to build for MACC. I handled all elements of the process- from initial design plans to final construction and delivery.</p>
 <p>I feel the general construction concepts seen in a project like this would translate to many other projects in a Registration department.</p>`,
 		gallery: [
-			{ image: "/images/portfolio/aframe.png", title: "", width: 400 },
+			{ image: "/images/portfolio/aframe.png", title: "", width: 450 },
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
 	},
@@ -22,9 +22,23 @@ frames are critical for both aesthetic and conservation reasons, and it could be
 beneficial to have a person in the carpenter position that has the ability to assist
 Sam and Sarah if needed in urgent framing projects.</p>`,
 		gallery: [
-			{ image: "/images/portfolio/frame-design.png", title: "" },
+			{ image: "/images/portfolio/framedesign_01.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_02.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_03.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_04.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_05.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_06.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_07.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_08.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_09.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_10.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_11.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_12.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_13.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_14.png", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_15.png", title: "", width: 450 },
 		],
-		columnClass: "grid-cols-1 md:grid-cols-2",
+		columnClass: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
 	},
 	{
 		id: 103,
@@ -34,13 +48,15 @@ Sam and Sarah if needed in urgent framing projects.</p>`,
 				name: "Anoxic Chamber",
 				description: `<p>Pictured above is an anoxic chamber I designed and constructed for Mia to use in pest treatments on material not suitable for freezing. My goal was to create a durable chamber that could be used over and over and be ready to go at all times for common average sized objects. Before this chamber, new Marvelseal envelopes had to be created every time before each treatment and were typically disposed of afterwards.
 Being able to create a resource like this for Mia was an incredibly rewarding project.</p>`,
-				gallery: [{ image: "/images/portfolio/microclimate1.png", title: "" }],
+				gallery: [{ image: "/images/portfolio/microclimate1.png", title: "", width: 450 }],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			},
 			{
 				name: "Humidification Chamber",
 				description: `<p>Pictured above is a humidification chamber I designed and constructed for growing mushrooms indoors. This project involved quite a bit of research, problem solving, inventiveness, attention to detail, and ability to envision design modifications to improve function.</p>
 <p>I hope the positive characteristics reflected in these projects can find their way into other unique projects for Mia somehow in the future. I can see these traits being beneficial to have in the carpenter position.</p>`,
-				gallery: [{ image: "/images/portfolio/microclimate2.png", title: "" }],
+				gallery: [{ image: "/images/portfolio/microclimate2.png", title: "", width: 450 }],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			},
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
@@ -57,8 +73,10 @@ hoping to move towards in my next chapter of museum work.</p>`,
 			{
 				name: 'Silver Polishing and Microclimate Case Fabrication',
 				gallery: [
-					{ image: "/images/portfolio/displaycase2.png", title: "" },
-				]
+					{ image: "/images/portfolio/displaycase1.png", title: "", width: 450 },
+					{ image: "/images/portfolio/displaycase2.png", title: "", width: 450 },
+				],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			}
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
@@ -75,7 +93,10 @@ hoping to move towards in my next chapter of museum work.</p>`,
 <li>Have a gasketed seal for IPM and RH concerns.</li>
 <li>Accommodate silica gel to stabilize RH.</li></ol>`,
 		gallery: [
-			{ image: "/images/portfolio/art-storage1.png", title: "" },
+			{ image: "/images/portfolio/art-storage1.png", title: "", width: 450 },
+			{ image: "/images/portfolio/art-storage2.png", title: "", width: 450 },
+			{ image: "/images/portfolio/art-storage3.png", title: "", width: 450 },
+			{ image: "/images/portfolio/art-storage4.png", title: "", width: 450 },
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
 	},
@@ -87,7 +108,8 @@ hoping to move towards in my next chapter of museum work.</p>`,
 				description: `<p>This is a cabinet I designed and built for a kitchen remodel. I think it is an effective example
 				that shows both craftsmanship and creative problem solving that would directly relate to the
 				carpenter position.</p>`,
-				gallery: [{ image: "/images/portfolio/cabinet-design.png" },]
+				gallery: [{ image: "/images/portfolio/cabinet-design.png", title: "", width: 450},],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			},
 			{
 				name: 'Craftsmanship:',
@@ -109,7 +131,7 @@ The space was divided into five equal parts with the bottle stabilized directly 
 	},
 	{
 		id: 107,
-		name: "Creative Problem Solving",
+		name: "Innovative Solutions",
 		description: `<p>This picture is from a home remodel project I designed and completed. Before the project
 started, the gray wall was solid- nothing open between the spaces. I wanted to open it up, but
 unfortunately this turned out to be a load bearing wall and I wasn’t prepared to start making
@@ -121,7 +143,7 @@ wall and developed an openness connecting the spaces.</p>
 demonstrates an ability to think creatively and make decisions that deal with unexpected issues
 that may come up in projects.</p>`,
 		gallery: [
-			{ image: "/images/portfolio/problem-solving.png", title: "" },
+			{ image: "/images/portfolio/problem-solving.png", title: "", width: 450 },
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
 	},
@@ -131,7 +153,7 @@ that may come up in projects.</p>`,
 		name: "Jigs",
 		description: `Pictured here is a jig I designed and built to improve quality and efficiency when making spline joints in larger frames. I feel constructing custom jigs for the woodshop illustrates the ability to think creatively, and demonstates a deeper level grasp on woodworking concepts.`,
 		gallery: [
-			{ image: "/images/portfolio/jig.png", title: "" },
+			{ image: "/images/portfolio/jig.png", title: "", width: 450 },
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
 	},
@@ -140,7 +162,7 @@ that may come up in projects.</p>`,
 		name: "Kiln",
 		description: `Pictured above is a 30 cubic foot gas kiln I designed and built. This was the kiln I used to fire my pots in while I had a studio in the Northern Warehouse in Lowertown, St. Paul. I was able to construct it in a poll barn that was located on family farmland near Willmar, MN. There was a lot of planning and tons of work that went into this project. I feel a carpenter possessing the drive, project management skills, problem solving capabilities, and work ethic that pushed this project along would surely be an asset to Mia.`,
 		gallery: [
-			{ image: "/images/portfolio/kiln.png", title: "" },
+			{ image: "/images/portfolio/kiln.png", title: "", width: 450 },
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
 	},
@@ -150,14 +172,16 @@ that may come up in projects.</p>`,
 		gallery: [
 			{
 				gallery: [
-					{ image: "/images/portfolio/kitchen-before1.png", title: "Before" },
-					{ image: "/images/portfolio/kitchen-after1.png", title: "After" },
-				]
+					{ image: "/images/portfolio/kitchen-before1.png", title: "Before", width: 450 },
+					{ image: "/images/portfolio/kitchen-after1.png", title: "After", width: 450 },
+				],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			}, {
 				gallery: [
-					{ image: "/images/portfolio/kitchen-before2.png", title: "Before" },
-					{ image: "/images/portfolio/kitchen-after2.png", title: "After" },
+					{ image: "/images/portfolio/kitchen-before2.png", title: "Before", width: 450 },
+					{ image: "/images/portfolio/kitchen-after2.png", title: "After", width: 450 },
 				],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			}
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
@@ -168,14 +192,16 @@ that may come up in projects.</p>`,
 		gallery: [
 			{
 				gallery: [
-					{ image: "/images/portfolio/upstairs-before.png", title: "Before" },
-					{ image: "/images/portfolio/upstairs-after.png", title: "After" },
-				]
+					{ image: "/images/portfolio/upstairs-before.png", title: "Before", width: 450 },
+					{ image: "/images/portfolio/upstairs-after.png", title: "After", width: 450 },
+				],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			}, {
 				description: `Detail of the closet area showing a privacy screen I built inspired by the Scholars Study (G216).`,
 				gallery: [
-					{ image: "/images/portfolio/upstairs.png" },
+					{ image: "/images/portfolio/upstairs.png", width: 450 },
 				],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			}
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",
@@ -186,9 +212,10 @@ that may come up in projects.</p>`,
 		gallery: [
 			{
 				gallery: [
-					{ image: "/images/portfolio/sidedoor-before.png", title: "Before" },
-					{ image: "/images/portfolio/sidedoor-after.png", title: "After" },
-				]
+					{ image: "/images/portfolio/sidedoor-before.png", title: "Before", width: 450 },
+					{ image: "/images/portfolio/sidedoor-after.png", title: "After", width: 450 },
+				],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			},
 		],
 		columnClass: "grid-cols-1 md:grid-cols-2",

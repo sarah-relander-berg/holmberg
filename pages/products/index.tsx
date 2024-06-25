@@ -7,7 +7,7 @@ import { productCategories } from "../../utils/product-data";
 import Layout from "../../components/Layout";
 import List from "../../components/Products/List";
 
-import ImgHero from "../../assets/th.jpg";
+import ImgHero from "../../assets/products.jpg";
 
 type Props = {
 	items: ProductCategory[];

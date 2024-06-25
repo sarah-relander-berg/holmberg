@@ -20,6 +20,7 @@ export type GallerySection = {
 	name?: string;
 	description?: string;
 	gallery?: GalleryItem[][] | GalleryItem[];
+	columnClass?: string;
 };
 
 export type GalleryItem = {

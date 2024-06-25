@@ -12,6 +12,7 @@ type GalleryProps = {
 
 const Gallery = ({ data, columnClass }: GalleryProps) => {
 	if (data && data[0] && typeof data[0] === "object" && ("name" in data[0] || "gallery" in data[0])) {
+		
 		return data.map((section) => <div>
 			<h3 className="text-xl font-semibold mb-3">{section.name}</h3>
 			<Gallery data={section.gallery} columnClass={section.columnClass ?? 'grid-cols-2 md:grid-cols-3'} />
@@ -27,7 +28,7 @@ const Gallery = ({ data, columnClass }: GalleryProps) => {
 		{data && 
 		<div className={cn(
 			columnClass,
-			"grid  gap-5"
+			"grid gap-5"
 		)}>
 			{data.map((image) => (
 				<div key={image.title}>
