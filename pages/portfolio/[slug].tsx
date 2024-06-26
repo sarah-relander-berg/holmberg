@@ -46,7 +46,7 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
 			</section>
 			<section>
 				<div className="container px-6 sm:px-12 2xl:px-6 py-12 mx-auto max-w-5xl">
-					<Gallery item={item} />
+					<Gallery data={item.gallery} />
 				</div>
 			</section>
 		</Layout>
