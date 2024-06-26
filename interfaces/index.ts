@@ -1,10 +1,11 @@
 export type ProductCategory = {
 	id: number;
 	name: string;
-	slug: string;
-	description: string | null;
+	slug?: string;
+	description?: string;
 	image: string;
-	gallery: GalleryItem[];
+	gallery?: GallerySection[] | GalleryItem[];
+	columnClass?: string;
 };
 
 export type PortfolioCategory = {
@@ -19,7 +20,7 @@ export type PortfolioCategory = {
 export type GallerySection = {
 	name?: string;
 	description?: string;
-	gallery?: GalleryItem[][] | GalleryItem[];
+	gallery?: GalleryItem[][] | GalleryItem[] | GallerySection[];
 	columnClass?: string;
 };
 

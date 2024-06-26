@@ -1,8 +1,7 @@
 import React from "react";
-import Link from "next/link";
 
 import { PortfolioCategory } from "../../interfaces";
-import Gallery from "./Gallery";
+import Gallery from "../Gallery/Gallery";
 
 type Props = {
 	data: PortfolioCategory;
@@ -15,7 +14,7 @@ const ListItem = ({ data }: Props) => (
 			<Gallery data={data.gallery} columnClass={data.columnClass ?? 'grid-cols-2 md:grid-cols-3'} />
 		</div>
 		{data.description ? (
-			<div className="mt-3 max-w-3xl text-lg text-gray-400 flex flex-col space-y-4 leading-7 group-hover:text-gray-600 transition-colors duration-500">
+			<div className="mt-6 max-w-3xl text-lg text-gray-400 flex flex-col space-y-4 leading-7 group-hover:text-gray-600 transition-colors duration-500">
 				<p dangerouslySetInnerHTML={{ __html: data.description }}></p>
 			</div>
 		) : null}

@@ -18,14 +18,11 @@ export const variantTextSize = {
 	"5xl": ["text-5xl"],
 };
 
-const typographyVariants = cva("my-4", {
+const typographyVariants = cva("", {
 	variants: {
 		variant: {
 			default: [],
-			highlight: ["inline bg-matisse-500 text-alabaster-50 box-decoration-clone px-2 font-semibold leading-normal"],
-			highlightYellow: ["inline bg-kournikova-500 text-alabaster-50 box-decoration-clone px-2 font-semibold leading-normal"],
-			highlightWhite: ["inline bg-alabaster-50 text-alabaster-990 box-decoration-clone px-2 font-semibold leading-normal"],
-			highlightPurple: ["inline bg-portGore-950 text-alabaster-50 box-decoration-clone px-2 font-semibold leading-normal"],
+			paragraph: ["my-4"],
 			underline: ["after:block after:mt-4 after:w-28 after:h-1.5"],
 			label: ["text-sm uppercase"],
 			caption: ["font-semibold uppercase text-md"],

@@ -5,15 +5,15 @@ import { ProductCategory } from "../../interfaces";
 import { productCategories } from "../../utils/product-data";
 
 import Layout from "../../components/Layout";
-import Gallery from "../../components/Products/Gallery";
+import Gallery from "../../components/Gallery/Gallery";
 import ListDetail from "../../components/Products/ListDetail";
 
 type Props = {
-	item?: ProductCategory;
+	product?: ProductCategory;
 	errors?: string;
 };
 
-const StaticPropsDetail = ({ item, errors }: Props) => {
+const StaticPropsDetail = ({ product, errors }: Props) => {
 	if (errors) {
 		return (
 			<Layout title="Error | Holmberg Woodworking">
@@ -25,16 +25,16 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
 	}
 
 	return (
-		<Layout title={`${item ? item.name : "User Detail"} | Holmberg Woodworking`}>
+		<Layout title={`${product ? product.name : "Product"} | Holmberg Woodworking`}>
 			{/* HERO */}
 			<section className=" min-h-96 relative overflow-hidden flex flex-col justify-end items-center">
 				<div className="z-10 w-full bg-gradient-to-t from-neutral-950/90 to-neutral-950/0 rounded">
 					<div className="container px-6 sm:px-12 2xl:px-6 pt-12 pb-8 lg:py-10 mx-auto max-w-5xl z-10">
-						<h1 className="block text-3xl font-semibold text-white sm:text-5xl 2xl:text-6xl">{item.name}</h1>
+						<h1 className="block text-3xl font-semibold text-white sm:text-5xl 2xl:text-6xl">{product.name}</h1>
 					</div>
 				</div>
 				<Image
-					src={item.image}
+					src={product.image}
 					alt="about"
 					width={1200}
 					height={400}
@@ -43,8 +43,10 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
 			</section>
 			<section>
 				<div className="container px-6 sm:px-12 2xl:px-6 py-12 mx-auto max-w-5xl">
-					{item && <ListDetail item={item} />}
-					<Gallery item={item} />
+					{product && <ListDetail item={product} />}
+					<div className="md:-mt-8 divide-y">
+						<Gallery data={product.gallery} columnClass={product.columnClass ?? 'grid-cols-2 md:grid-cols-3'} sectionClass="pt-6 pb-8 md:pt-8 md:pb-12"/>
+					</div>
 				</div>
 			</section>
 		</Layout>
@@ -70,10 +72,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
 	try {
 		const slug = params?.slug;
-		const item = productCategories.find((data) => data.slug === slug);
-		// By returning { props: item }, the StaticPropsDetail component
-		// will receive `item` as a prop at build time
-		return { props: { item } };
+		const product = productCategories.find((data) => data.slug === slug);
+		// By returning { props: product }, the StaticPropsDetail component
+		// will receive `product` as a prop at build time
+		return { props: { product } };
 	} catch (err: any) {
 		return { props: { errors: err.message } };
 	}
