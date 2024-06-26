@@ -69,7 +69,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => {
 				</div>
 			</header>
 
-			<div className=" bg-gray-50 min-h-screen md:ml-72 2xl:ml-96">
+			<div className=" bg-gray-50 min-h-[calc(100dvh-5rem)] md:ml-72 2xl:ml-96">
 				{children}
 				<footer className="container px-6 py-12 mx-auto max-w-5xl">© 2024 Holmberg Woodworking</footer>{" "}
 			</div>

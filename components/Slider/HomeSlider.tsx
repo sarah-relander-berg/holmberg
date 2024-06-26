@@ -31,28 +31,28 @@ function HomeSlider() {
         <Image
 			src={ImgHome1}
 			alt="home1"
-			className="w-full bg-gray-50 object-cover md:h-dvh aspect-square md:aspect-none md:max-h-dvh"
+			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
 		/> 
         </div>
         <div>
         <Image
 			src={ImgHome3}
 			alt="home3"
-			className="w-full bg-gray-50 object-cover md:h-dvh max-h-[calc(100dvh-5rem)] aspect-square md:aspect-none md:max-h-dvh"
+			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
 		/> 
         </div>
         <div>
         <Image
 			src={ImgHome4}
 			alt="home4"
-			className="w-full bg-gray-50 object-cover md:h-dvh max-h-[calc(100dvh-5rem)] aspect-square md:aspect-none md:max-h-dvh"
+			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
 		/> 
         </div>
         <div>
         <Image
 			src={ImgHome5}
 			alt="home5"
-			className="w-full bg-gray-50 object-cover md:h-dvh max-h-[calc(100dvh-5rem)] aspect-square md:aspect-none md:max-h-dvh"
+			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
 		/> 
         </div>
       </Slider>
