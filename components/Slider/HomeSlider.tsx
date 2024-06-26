@@ -13,7 +13,7 @@ import ImgHome5 from "../../assets/home05.jpg";
 function HomeSlider() {
   const settings = {
     dots: false,
-    lazyLoad: true,
+    lazyLoad: false,
     infinite: true,
     fade: true,
     autoplay: true,
