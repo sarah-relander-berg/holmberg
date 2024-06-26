@@ -44,8 +44,8 @@ const StaticPropsDetail = ({ product, errors }: Props) => {
 			<section>
 				<div className="container px-6 sm:px-12 2xl:px-6 py-12 mx-auto max-w-5xl">
 					{product && <ListDetail item={product} />}
-					<div className="md:-mt-8 divide-y">
-						<Gallery data={product.gallery} columnClass={product.columnClass ?? 'grid-cols-2 md:grid-cols-3'} sectionClass="pt-6 pb-8 md:pt-8 md:pb-12"/>
+					<div className="divide-y">
+						<Gallery data={product.gallery} columnClass={product.columnClass ?? 'grid-cols-2 md:grid-cols-3'} sectionClass="first:pt-0 pt-6 pb-8 md:pt-8 md:pb-12"/>
 					</div>
 				</div>
 			</section>
