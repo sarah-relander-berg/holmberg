@@ -31,28 +31,28 @@ function HomeSlider() {
         <Image
 			src={ImgHome1}
 			alt="home1"
-			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
+			className="w-full bg-gray-50 object-cover sm:object-contain max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
 		/> 
         </div>
         <div>
         <Image
 			src={ImgHome3}
 			alt="home3"
-			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
+			className="w-full bg-gray-50 object-cover sm:object-contain max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
 		/> 
         </div>
         <div>
         <Image
 			src={ImgHome4}
 			alt="home4"
-			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
+			className="w-full bg-gray-50 object-cover max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
 		/> 
         </div>
         <div>
         <Image
 			src={ImgHome5}
 			alt="home5"
-			className="w-full bg-gray-50 object-contain h-[calc(100dvh-12.5rem)] md:h-dvh md:max-h-dvh"
+			className="w-full bg-gray-50 object-cover h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
 		/> 
         </div>
       </Slider>
