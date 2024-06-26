@@ -5,7 +5,7 @@ import Layout from "../../components/Layout";
 import ListDetail from "../../components/ListDetail";
 
 import { productCategories } from "../../utils/product-data";
-import Gallery from "../../components/Products/Gallery";
+import Gallery from "../../components/Gallery/Gallery";
 import Image from "next/image";
 
 type Props = {
