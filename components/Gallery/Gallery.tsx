@@ -13,10 +13,10 @@ type GalleryProps = {
 	index?: number
 };
 
-const Gallery = ({ data, sectionClass, columnClass, index = 3 }: GalleryProps) => {
+const Gallery = ({ data, sectionClass, columnClass, index = 2 }: GalleryProps) => {
 	if (data && data[0] && typeof data[0] === "object" && ("name" in data[0] || "gallery" in data[0])) {
 		const headingAs = "h" + index as any;
-		const headingClass = index == 3 ? "text-2xl" : "text-xl"
+		const headingClass = index == 2 ? "text-2xl" : "text-xl"
 		return data.map((section) => <div className={cn(
 			sectionClass,
 			"space-y-4"

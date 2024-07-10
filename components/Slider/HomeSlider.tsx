@@ -11,53 +11,53 @@ import ImgHome4 from "../../assets/home04.jpg";
 import ImgHome5 from "../../assets/home05.jpg";
 
 function HomeSlider() {
-  const settings = {
-    dots: false,
-    lazyLoad: false,
-    infinite: true,
-    fade: true,
-    autoplay: true,
-    speed: 1800,
-    autoplaySpeed: 4000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    pauseOnHover: false
-  };
-  const baseUrl = 'https://react-slick.neostack.com/img/react-slick';
-  return (
-    <div className="slider-container overflow-hidden">
-      <Slider {...settings}>
-        <div>
-        <Image
-			src={ImgHome1}
-			alt="home1"
-			className="w-full bg-gray-50 object-cover sm:object-contain max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
-		/> 
-        </div>
-        <div>
-        <Image
-			src={ImgHome3}
-			alt="home3"
-			className="w-full bg-gray-50 object-cover sm:object-contain max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
-		/> 
-        </div>
-        <div>
-        <Image
-			src={ImgHome4}
-			alt="home4"
-			className="w-full bg-gray-50 object-cover max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
-		/> 
-        </div>
-        <div>
-        <Image
-			src={ImgHome5}
-			alt="home5"
-			className="w-full bg-gray-50 object-cover h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
-		/> 
-        </div>
-      </Slider>
-    </div>
-  );
+	const settings = {
+		dots: false,
+		lazyLoad: false,
+		infinite: true,
+		fade: true,
+		autoplay: true,
+		speed: 1500,
+		autoplaySpeed: 3500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		pauseOnHover: false,
+	};
+	const baseUrl = "https://react-slick.neostack.com/img/react-slick";
+	return (
+		<div className="slider-container overflow-hidden">
+			<Slider {...settings}>
+				<div>
+					<Image
+						src={ImgHome1}
+						alt="home1"
+						className="w-full bg-gray-50 object-cover sm:object-contain max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
+					/>
+				</div>
+				<div>
+					<Image
+						src={ImgHome3}
+						alt="home3"
+						className="w-full bg-gray-50 object-cover sm:object-contain max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
+					/>
+				</div>
+				<div>
+					<Image
+						src={ImgHome4}
+						alt="home4"
+						className="w-full bg-gray-50 object-cover max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
+					/>
+				</div>
+				<div>
+					<Image
+						src={ImgHome5}
+						alt="home5"
+						className="w-full bg-gray-50 object-cover sm:object-contain max-h-[calc(100dvh-12.5rem)] aspect-[6/5] md:aspect:none md:h-dvh md:max-h-dvh"
+					/>
+				</div>
+			</Slider>
+		</div>
+	);
 }
 
 export default HomeSlider;

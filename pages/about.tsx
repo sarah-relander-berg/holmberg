@@ -29,7 +29,7 @@ const AboutPage = () => (
 
 		{/* CV */}
 		<section className="bg-gray-100 text-center">
-			<div className="container px-6 sm:px-12 2xl:px-6 pt-12 pb-8 lg:py-10 mx-auto max-w-5xl">CV: Coming Soon</div>
+			<div className="container px-6 sm:px-12 2xl:px-6 py-12 lg:py-10 mx-auto max-w-5xl">CV: Coming Soon</div>
 		</section>
 	</Layout>
 );
