@@ -20,37 +20,20 @@ as examples to showcase the types of frames I create.`,
 				name: "Examples",
 				description: ``,
 				gallery: [
+					{ image: "/images/frames/example01.jpg", title: "", width: 450 },
+					{ image: "/images/frames/example02.jpg", title: "", width: 450 },
+					{ image: "/images/frames/example03.jpg", title: "", width: 450 },
 					{
-						name: null,
-						description: ``,
-						gallery: [
-							{ image: "/images/frames/example01.jpg", title: "", width: 450 },
-							{ image: "/images/frames/example02.jpg", title: "", width: 450 },
-							{ image: "/images/frames/example03.jpg", title: "", width: 450 },
-							{ image: "/images/frames/example08.jpg", title: "", width: 450 }
-						],
-						columnClass: "grid-cols-1 md:grid-cols-2",
+						image: "/images/frames/example04.jpg", title: "", width: 450, description: `Jim Denomie<br/>The Posse, 1995<br/>Courtesy of Jim Denomie Estate and Bockley Gallery`,
 					},
+					{ image: "/images/frames/example05.jpg", title: "", width: 450 },
 					{
-						name: 'The Posse, 1995',
-						description: `Jim Denomie<br/>The Posse, 1995<br/>Courtesy of Jim Denomie Estate and Bockley Gallery`,
-						gallery: [
-							{ image: "/images/frames/example04.jpg", title: "", width: 450 },
-							{ image: "/images/frames/example05.jpg", title: "", width: 450 },
-						],
-						columnClass: "grid-cols-1 md:grid-cols-2",
+						image: "/images/frames/example06.jpg", title: "", width: 450, description: `Jim Denomie<br/>The National Anthem, 1997-2000<br/>Courtesy of Jim Denomie Estate and Bockley Gallery`,
 					},
-					{
-						name: 'The National Anthem, 1997-2000',
-						description: `Jim Denomie<br/>The National Anthem, 1997-2000<br/>Courtesy of Jim Denomie Estate and Bockley Gallery`,
-						gallery: [
-							{ image: "/images/frames/example06.jpg", title: "", width: 450 },
-							{ image: "/images/frames/example07.jpg", title: "", width: 450 },
-						],
-						columnClass: "grid-cols-1 md:grid-cols-2",
-					},
-					
+					{ image: "/images/frames/example07.jpg", title: "", width: 450 },
+					{ image: "/images/frames/example08.jpg", title: "", width: 450 },
 				],
+				columnClass: "grid-cols-1 md:grid-cols-2",
 			},
 			{
 				name: "Profiles",

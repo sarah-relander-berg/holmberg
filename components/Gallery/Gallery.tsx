@@ -46,6 +46,12 @@ const Gallery = ({ data, sectionClass, columnClass, index = 2 }: GalleryProps) =
 								image.aspect ?? "aspect-",
 								"object-cover max-w-full rounded-lg"
 							)} src={image.image} alt={image.title} />
+
+							{image.description ? (
+								<div className="mt-3 text-lg text-gray-400 flex flex-col space-y-4 leading-7 group-hover:text-gray-600 transition-colors duration-500">
+									<p dangerouslySetInnerHTML={{ __html: image.description }}></p>
+								</div>
+							) : null}
 						</div>
 					))}
 				</div>}

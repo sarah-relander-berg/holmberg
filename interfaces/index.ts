@@ -27,6 +27,7 @@ export type GallerySection = {
 export type GalleryItem = {
 	image: string;
 	title?: string;
+	description?: string;
 	width?: number;
 	aspect?: string;
 };
