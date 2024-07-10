@@ -17,8 +17,8 @@ function HomeSlider() {
     infinite: true,
     fade: true,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 4500,
+    speed: 1800,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false
