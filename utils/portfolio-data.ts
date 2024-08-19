@@ -32,7 +32,9 @@ Sam and Sarah if needed in urgent framing projects.</p>`,
 			{ image: "/images/portfolio/framedesign_07.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_08.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_09.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_09b.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_10.jpg", title: "", width: 450 },
+			{ image: "/images/portfolio/framedesign_10b.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_11.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_12.jpg", title: "", width: 450 },
 			{ image: "/images/portfolio/framedesign_13.jpg", title: "", width: 450 },
@@ -85,7 +87,7 @@ hoping to move towards in my next chapter of museum work.</p>`,
 	{
 		id: 105,
 		name: "Storage Box",
-		description: `<p>I was involved with the project above in multiple capacities. I started by polishing the silver object on the wall. After thePictured above is a storage box prototype I designed and constructed.</p>
+		description: `<p>Pictured above is a storage box prototype I designed and constructed.</p>
 <p>The goal was to:</p>
 <ol><li>Design something that a museum could mass produce in-house.</li>
 <li>Use conservation approved materials for long term storage.</li>
